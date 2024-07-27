@@ -1,0 +1,33 @@
+{
+  "name": "inline-commenter",
+  "displayName": "Inline Commenter",
+  "description": "Wraps highlighted text with inline comments (/* */)",
+  "version": "0.0.1",
+  "publisher": "Iyola Oyabiyi",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.inlineCommenter"
+  ],
+  "main": "./src/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm install"
+  },
+  "devDependencies": {},
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.inlineCommenter",
+        "title": "Inline Commenter"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.inlineCommenter",
+        "key": "ctrl+shift+/",
+        "when": "editorTextFocus"
+      }
+    ]
+  }
+}
