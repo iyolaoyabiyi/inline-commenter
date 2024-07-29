@@ -3,7 +3,8 @@
   "displayName": "Inline Commenter",
   "description": "Wraps highlighted text with inline comments (/* */)",
   "version": "0.0.1",
-  "publisher": "Iyola Oyabiyi",
+  "publisher": "iyola-oyabiyi",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.62.0"
   },
@@ -29,5 +30,9 @@
         "when": "editorTextFocus"
       }
     ]
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/iyolaoyabiyi/inline-commenter"
   }
 }

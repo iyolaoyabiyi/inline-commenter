@@ -1,13 +1,13 @@
 # Inline Commenter
 
-This is the README "inline-commenter". This extension allows you to easily wrap highlighted text with inline comments in your code.
+Inline Commenter allows you to easily wrap highlighted text with inline comments in your code.
 
 ## Features
 
 - **Wrap with Comments**: Quickly wrap selected text with `/* */` for inline comments by pressing .
 - **Toggle Comments**: If the selected text is already commented, it will remove the comments.
 
-![Feature Preview](feature-preview.gif)
+![Feature Preview](https://i.ibb.co/K5381Cy/feature-preview.gif)
 
 ## Usage
 
@@ -33,3 +33,8 @@ This extension does not contribute any settings through the `contributes.configu
 ### 0.0.1
 
 - Initial release of Inline Commenter.
+
+## License
+
+This project is licensed under a custom License - see the [LICENSE](LICENSE.md) file for details.
+
